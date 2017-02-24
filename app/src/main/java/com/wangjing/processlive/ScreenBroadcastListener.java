@@ -6,7 +6,7 @@ import android.content.Intent;
 import android.content.IntentFilter;
 
 /**
- * Created by 王景 on 2017/2/19.
+ * Created by LooperJing on 2017/2/19.
  */
 
 public class ScreenBroadcastListener {
@@ -22,7 +22,7 @@ public class ScreenBroadcastListener {
         mScreenReceiver = new ScreenBroadcastReceiver();
     }
 
-    interface ScreenStateListener {
+    public interface ScreenStateListener {
 
         void onScreenOn();
 

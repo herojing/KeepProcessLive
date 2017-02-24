@@ -9,6 +9,8 @@ import android.view.Gravity;
 import android.view.Window;
 import android.view.WindowManager;
 
+import com.wangjing.processlive.manager.ScreenManager;
+
 public class LiveActivity extends Activity {
 
     public static final String TAG = LiveActivity.class.getSimpleName();

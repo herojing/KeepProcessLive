@@ -1,12 +1,14 @@
-package com.wangjing.processlive;
+package com.wangjing.processlive.manager;
 
 import android.app.Activity;
 import android.content.Context;
 
+import com.wangjing.processlive.LiveActivity;
+
 import java.lang.ref.WeakReference;
 
 /**
- * Created by 王景 on 2017/2/19.
+ * Created by LooperJing on 2017/2/19.
  */
 
 public class ScreenManager {
